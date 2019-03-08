@@ -20,3 +20,8 @@ Route::get('/test', function () {
 
     return response()->json(['status'=>'hello'], 200);
 });
+
+Route::post('/mina', function () {
+
+    return response()->json(['status'=>'hello'], 200);
+});
